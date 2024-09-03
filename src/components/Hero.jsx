@@ -1,5 +1,5 @@
 import React from 'react';
-import ProfilePic from '../assets/pic.jpg';
+import profilePic from '../assets/pic.jpg';
 
 function Hero() {
   return (
@@ -15,8 +15,10 @@ function Hero() {
               Front-end Developer
             </span>
             <p className="my-2 max-w-xl py-6 font-light tracking-tight text-lg">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Eu sou um desenvolvedor front-end apaixonado por tecnologia.
+              Busco sempre aprender coisas novas e me aprimorar cada vez mais.
+              Tenho experiência com React, Tailwind CSS, Docker, Python, Node.js,
+              e no momento tentando aprimorar o meu TypeScript e Next.js.
             </p>
           </div>
         </div>
@@ -24,7 +26,7 @@ function Hero() {
           <div className="flex justify-center">
             <img
               className=" h-96  rounded-lg"
-              src={ProfilePic}
+              src={profilePic}
               alt="Profile Pic"
             />
           </div>
